@@ -1,0 +1,71 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-color: #f9f9f9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: solid 1px #BDBEBC;
+  border-left: solid 1px #BDBEBC;
+  border-right: solid 1px #BDBEBC;
+  width: 700px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.people {
+  width: 150px;
+  height: 150px;
+  border: solid 1px #BDBEBC;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+section {
+  width: 700px;
+  height: 300px;
+  border: solid 1px #BDBEBC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.default_information {
+  margin-top: 120px;
+  color: #999;
+  font-size: 20px;
+}
+
+.select_information {
+  height: 60px;
+  margin: 5px 0px;
+  font-size: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+li {
+  list-style:none;
+}
+
+li img {
+  width: 30%;
+  cursor: pointer;
+}
